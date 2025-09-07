@@ -50,6 +50,8 @@ app.use('/api/auth', rateLimiter);
 app.use('/api/auth', authRoutes);
 app.use('/api/tasks', taskRoutes);
 
+app.get('/api', (req, res) => res.json({ message: 'Task Manager API is running!' }));
+
 // 404
 app.use((req, res, next) => next(createError(404, 'Not found')));
 
