@@ -48,7 +48,7 @@ git clone https://github.com/shivammishra28/Task-Manager
 cd task-manager
 ```
 
-##2️⃣ Setup Backend
+## 2️⃣ Setup Backend
 cd server
 cp .env.example .env   # fill in your values (MongoDB URI, JWT secret, etc.)
 npm install
