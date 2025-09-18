@@ -48,27 +48,24 @@ git clone https://github.com/shivammishra28/Task-Manager
 cd task-manager
 ```
 
-## 2️⃣ Setup Backend
+### 2️⃣ Setup Backend
+```bash
 cd server
 cp .env.example .env   # fill in your values (MongoDB URI, JWT secret, etc.)
 npm install
 npm run dev
+```
+
 
 ### 3️⃣ Setup Frontend
-cd ../client
-cp .env.example .env   # set API URL (default: http://localhost:8000/api)
-npm install
-npm run dev2️⃣ Setup Backend
-cd server
-cp .env.example .env   # fill in your values (MongoDB URI, JWT secret, etc.)
-npm install
-npm run dev
-
-### 3️⃣ Setup Frontend
+```bash
 cd ../client
 cp .env.example .env   # set API URL (default: http://localhost:8000/api)
 npm install
 npm run dev
+```
+
+
 
 
 ## Security Highlights:
